@@ -13,3 +13,20 @@ def check(a):
     print("Uppercase words:", count_upper)
 
 check(a)
+# problem 02 
+a=[1,2,3,3,3,4,4,1,2,3,5,5,6,6]
+def unique(a):
+  s=set(a)
+  a=list(s)
+  print(a)
+unique(a)
+#problem 03
+def ispalindrome(a):
+  if a[::-1]==a:
+    print("palindrome")
+  else :
+    print("not palindrome")
+a='helleh'
+b='hello'
+ispalindrome(a)
+ispalindrome(b)
